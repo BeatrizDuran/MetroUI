@@ -25,6 +25,7 @@ namespace Metrooo
             }
             thread.Abort();
         }
+
         Mutex mutex = new Mutex();
         void Metodo()
         {
